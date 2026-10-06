@@ -1,0 +1,20 @@
+.chat-input { display: flex; padding: 0; }
+.chat-input input { flex: 1; min-width: 0; border: 0; padding: 12px; font: inherit; outline: 0; }
+.chat-input button { border: 0; background: white; padding: 0 12px; color: #39799c; font-size: 18px; }
+.chat-products { display: grid; gap: 6px; margin: 10px 0; max-height: 180px; overflow: auto; }
+.chat-products a { display: flex; gap: 8px; align-items: center; color: #173f65; text-decoration: none; font-size: 10px; }
+.chat-products img { width: 38px; height: 38px; object-fit: cover; }
+.chat-products b { display: block; color: #39799c; }
+.catalogue-search { width: 100%; max-width: 520px; margin: -18px 0 28px; padding: 14px 16px; border: 1px solid #d6e0df; font: inherit; }
+.product-card p { margin: 0 0 12px; color: #617381; font-size: 11px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.bulldog { width: 54px; height: 44px; color: #5c91ae; overflow: visible; }
+.dog-head { fill: #5c91ae; stroke: #173f65; stroke-width: 2.2; }
+.dog-ears { fill: none; stroke: #173f65; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.dog-muzzle { fill: #e8f0f0; stroke: #173f65; stroke-width: 1.7; }
+.dog-eye,.dog-nose,.dog-tag { fill: #173f65; }
+.dog-mouth,.dog-collar { fill: none; stroke: #173f65; stroke-width: 1.7; stroke-linecap: round; }
+.corner-dog { position: fixed; z-index: 4; opacity: .9; pointer-events: none; filter: drop-shadow(0 4px 4px #173f6520); }
+.corner-dog-one { top: 86px; left: 22px; transform: rotate(-10deg); }
+.corner-dog-two { right: 24px; top: 104px; width: 45px; transform: rotate(9deg) scaleX(-1); }
+header .logo::after { content: ' • bulldog approved'; color: #7b9db0; font-size: 9px; letter-spacing: .03em; margin-left: 8px; }
+@media(max-width:750px){.corner-dog{display:none}header .logo::after{display:none}}
