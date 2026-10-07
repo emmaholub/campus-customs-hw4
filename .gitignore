@@ -8,5 +8,6 @@ frontend/dist/
 *.db-shm
 *.db-wal
 .env
+data.zip
 data/campus_customs.db
 data/products/
